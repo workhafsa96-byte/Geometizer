@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geometizer App</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="circle-card">
+    <div class="content">
+      <h1>The Geometizer App</h1>
+
+      <p>
+        This app calculates and displays the circumference and area
+        of a circle using the radius.
+        Formula used: C = 2πr and A = πr²
+      </p>
+
+      <h2>Radius Of A Circle</h2>
+
+      <input type="number" id="radius" placeholder="Enter radius">
+
+      <div class="result" id="result">
+        The circumference is: 0 <br>
+        The area is: 0
+      </div>
+
+      <button onclick="calculateCircle()">Calculate</button>
+    </div>
+  </div>
+
+<script src="app.js"></script>
+</body>
+</html>
